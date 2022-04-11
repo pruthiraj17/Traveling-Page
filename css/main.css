@@ -1,0 +1,487 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+
+
+body{
+    font-family: 'Merriweather', serif;
+    
+}
+
+
+.d-flex{
+   display: flex; 
+}
+header {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #bbb;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.header-content{
+    justify-content: space-between;
+}
+
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.nav-bar>li  {
+   margin-left: 1rem;
+   margin-right: 1rem;
+}
+
+.logo {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bolder;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero-content {
+    position: absolute; 
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header {
+   background-image: url(../image/Alappuzha-Alleppey.png);
+   background-size: cover;
+}
+.logo>a {
+    background-color: E54F6D;
+    font-size: 1.25rem;
+}
+.logo>.icon{
+    opacity: 80%;
+}
+
+.nav-bar{
+    background-color: 52B2CF;
+    padding: 0.5rem 0.4rem;
+    opacity: 70%;
+    
+}
+.nav-bar>li>a {
+    color: 0F0E0E;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+
+.nav-bar li:hover a {
+    background: orangered;
+}
+
+
+h1 {
+    font-size: 3.8rem;
+    font-weight: 900;
+    color: rgba(16, 68, 179, 0.842);
+    margin: 0;
+}
+
+h2 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: rgb(255, 244, 240);s
+    margin: 0;
+    margin-bottom: 2.5rem;
+}
+
+.btn-main {
+    background-color: rgb(75, 77, 6);
+    padding: 1rem 2rem;
+    color: rgb(189, 48, 158);
+}
+.btn-main:hover {
+    background-color: aliceblue;
+    color: rgb(235, 194, 11);
+}
+
+.primary-bg {
+    background-color: #FE7F2D;
+}
+
+.m-0 {
+    margin: 0 !important;
+}
+
+.grid{
+    display: grid;
+}
+
+.col2-col1 {
+    grid-template-columns: 2fr 1fr;
+}
+
+.section-padding{
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.call-to-action-btn{
+    margin-top: 40%;
+    margin-bottom: auto;
+    margin-left: 7rem;
+}
+
+.call-to-action-btn>.btn-main {
+    color: rgb(143, 144, 206);
+}
+
+
+.section-heading {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.section-heading {
+    color: FDFFFC;
+}
+.section-heading>span {
+    color: #0c0a09;
+    
+}
+
+.text-right {
+    text-align: right;
+}
+
+.col-1-col-1 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+.img-fluid1{
+    width: 100%;
+    height: auto;
+    margin-top: 12.5%;
+}
+
+.about-content-left>.section-heading{
+   color: red;
+   font-weight: bold;
+}
+.about-content-right>.section-heading{
+    color: red;
+    font-weight: bolder;
+    text-align: center;
+ }
+.about-content-left p{
+    margin: 1rem;
+    margin-right: 0;
+    color: 170312;
+    font-size: x-large;
+}
+
+.about-content-right p{
+    margin: 1rem;
+    margin-left: 0;
+    color: 170312;
+    font-size: x-large;
+}
+.primary-bg1 {
+    background-color: F1FAEE;
+}
+.services {
+    background-color: F4EBD9;
+}
+.services h2 {
+    color: 4B1D3F;
+    font-weight: 800;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.col-1-col-1-col-1-col-1 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.service,
+.team,
+.my-icon {
+   background-color: F6F0ED;
+   padding: 1.5rem; 
+   box-shadow: 0px 0px 10px 0px red;
+   border-radius: 7%;
+   margin: 1rem;
+}
+
+.service-icon>.s-icon {
+    padding: 1rem 1.2rem;
+    border-radius: 50%;
+    background-color: #EFCB68;
+    border: 2px solid #222;
+}
+
+.service h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.s-icon {
+    height: 1.9rem;
+    width: auto;
+}
+.attraction-section {
+   background-color: 4B1D3F;
+}
+.attraction-section h2 {
+    color: D1462F;
+}
+
+.team {
+    padding: 0;
+}
+
+.team-content {
+    margin-top: o.6rem;
+}
+
+.contact h2 {
+    color: orangered;
+}
+
+.contact input,
+.contact textarea { 
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: none;
+    background-color: FAF0CA;
+
+}
+.form-group {
+    margin-bottom: 1rem;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0px 0px 10px 0px red;
+   
+}
+
+.w-50 {
+    width: 50%;
+    position: relative;
+bottom: 420px;
+right: 100px;
+}
+
+.btn-main1 {
+    background-color: #222;
+    padding: 0.5rem 2rem;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+.btn-main1:hover {
+    background-color: aliceblue;
+    color: #222;
+}
+.contact {
+  background-image: url(../image/background.jpg);
+  background-size: cover;
+}
+
+
+.contact video {
+    width: 105%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.contact label {
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: 881600;
+
+}
+
+
+.about-me {
+    background-image: url(../image/back3.jpg);
+    background-size: cover; 
+}
+
+
+.col1-col1 {
+    grid-template-columns: 1fr 1fr;
+}
+.social-link {
+    background-color: aqua;
+}
+.social-link>ul>li {
+      padding: 0.5rem;
+      margin: 0.5rem;
+      border: 1px solid #222;
+      border-radius: 40%;
+      font-size: 1.2rem;
+      transition: 0.3s ease-in-out;
+}
+.social-link>ul>li:hover {
+    background-color: FFBA08;
+}
+.my-icon {
+    padding: 0;
+    height: 50%;
+}
+.my-icon h3 {
+    font-size: 1.5rem;
+}
+.my-content {
+    margin-top: 0.5rem;
+    background-color: #FE7F2D;
+}
+.justify-content-center {
+    justify-content: center;
+}
+
+.land-icon>.icon {
+    margin-top: 4rem;
+    padding: 0.8rem 0.7rem;
+    border-radius: 0%;
+    background-color: gray;
+    border: 1px solid #222;
+}
+.icon {
+    height: 3.9rem;
+    width: auto;
+}
+.about-me p {
+    color: B7245C;
+}
+
+.footer {
+    background-color: #222;
+    color: #fff;
+}
+
+.footer a{
+    color: #fff;
+}
+.footer p{
+    margin-top: 1rem;
+}
+.footer h3{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+}
+.footer li{
+    margin-bottom: 0.5rem;
+}
+.links>ul>li:hover a{
+    color: red;
+}
+.info>.footer-logo:hover {
+    color: red;
+}
+
+
+.credits{
+    color: greenyellow;
+}
+
+.gotobtn {
+    position: fixed;
+    width: 48px;
+    height: 48px;
+    background: red;
+    bottom: 70px;
+    right: 5px;
+    opacity: 70%;
+
+    text-decoration: none;
+     text-align: center;
+     line-height: 50px;
+     color: #222;
+     font-size: 50px;
+}
+
+.logo1 a{
+    background-color:  red;
+}
+.abc {
+    background-color: grey;
+}
+
+
+
+@media(max-width: 900px) 
+ {
+  .col-1-col-1,
+  .col1-col1,
+  .col2-col1,
+  .col-1-col-1-col-1-col-1 {
+     grid-template-columns: 1fr;
+ }
+ .header .d-flex {
+     flex-direction: column;
+ }
+  nav{
+      padding: 1rem;
+      text-align: center;
+  }
+  .nav-bar li{
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      margin: 0;
+      border-top: 1px solid #222;
+  }
+  .m-border-bottom{
+    border-bottom: 1px solid #222;
+   }
+    h1 {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: 0.8rem;
+    }
+    .btn-main {
+        padding: 0.4rem 0.6rem;
+    }
+    .text-right {
+        text-align: center;
+    }
+    .call-to-action-btn {
+        margin-top: 2rem;
+        text-align: center;
+    }
+  .w-50 {
+      width: 70%;
+      position: sticky;
+      
+  } 
+}
